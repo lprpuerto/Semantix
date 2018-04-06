@@ -1,7 +1,7 @@
 
 %% Semantix Cientista de dados
 
-% Import data as cellarray in matlab
+% Import data as cellarray in matlab using the matlab import tool
 
 %% 1st question in ecxel
 
@@ -44,7 +44,7 @@ figure, hist(histfal,100),title('falha')
 
 %% 3rd question
 
-% definição dos vectores para essa parte da análise
+% definiÃ§Ã£o dos vectores para essa parte da anÃ¡lise
 contatos3=zeros(sz(1,1),1);
 sucesso3=zeros(sz(1,1),1);
 unk='"unknown"';
@@ -63,13 +63,13 @@ contatos3a=contatos3(1:cont3-1,1);
 
 figure, hist(contatos3a,29),title('sucesso ligacoes')
 
-% Número médio de ligações
+% NÃºmero mÃ©dio de ligaÃ§Ãµes
 
 meanlig=mean(contatos3a);
 
 %% 4th question
 
-% definição dos vectores para essa parte da análise
+% definiÃ§Ã£o dos vectores para essa parte da anÃ¡lise
 unk4=zeros(sz(1,1),1);
 oth4=zeros(sz(1,1),1);
 fai4=zeros(sz(1,1),1);
@@ -117,7 +117,7 @@ pp4=p4*(conts4-1)/45211;
 
 %% 6th question
 
-% Definição das variaveis para essa parte da análise
+% DefiniÃ§Ã£o das variaveis para essa parte da anÃ¡lise
 cont6=1;
 cont26=1;
 age=zeros(sz(1,1),1);
@@ -165,7 +165,7 @@ figure, hist(balancet,39),title('Amostra vs balance')
 figure, hist(loan,29),title('Emprestimo imobiliario vs emprestimo pessoal')
 figure, hist(loant,29),title('Amostra vs emprestimo pessoal')
 
-% Definição das variaveis para essa parte da análise
+% DefiniÃ§Ã£o das variaveis para essa parte da anÃ¡lise
 divo='"divorced"';
 sing='"single"';
 marr='"married"';
